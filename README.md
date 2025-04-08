@@ -2,8 +2,6 @@
 # Table of content
 - [1. General](#1)
 - [2. Docker commands](#2)
-- [3. Full Backup Script for Odoo Docker Environment](#3)
-- [4. Restore Script for Odoo Docker Backup](#4)
 
  <a id="1.1"></a>
 # 1. General [🡅](#0)
