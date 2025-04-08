@@ -1,3 +1,4 @@
+ <a id="0"></a>
 # Table of content
 - [1. General](#1)
 - [2. Docker commands](#2)
@@ -5,7 +6,7 @@
 - [4. Restore Script for Odoo Docker Backup](#4)
 
  <a id="1.1"></a>
-# 1. General
+# 1. General [🡅](#0)
 
 ## File __init__.py
 import libraries, classes
@@ -41,7 +42,7 @@ if you miss this permission you cannot save or create files from windows 11 PyCh
 find / -name "odoo-bin" 2>/dev/null
 
 <a id="2"></a>
-# Docker commands
+# 2. Docker commands [🡅](#0)
 ## Start Docker
 Tips: if doesn't work the command, start the container manually from windows Docker Desktop and will work.
 
@@ -77,7 +78,7 @@ output:
 here the ip 172.17.108.98
 
 <a id="3"></a>
-# 🛡️ Full Backup Script for Odoo Docker Environment
+# 🛡️ 3. Full Backup Script for Odoo Docker Environment [🡅](#0)
 
 This script creates a complete backup of your Odoo setup, including:
 
@@ -191,7 +192,7 @@ docker-compose up -d
 echo "✅ Restore completed successfully."
 ```
 <a id="4"></a>
-## 🔁 Restore Script for Odoo Docker Backup
+## 🔁 4.Restore Script for Odoo Docker Backup [🡅](#0)
 
 This script restores your full Odoo environment from backups, including:
 
