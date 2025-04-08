@@ -1,0 +1,39 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Docker volumes (managed externally)
+/volumes/
+/odoo-web-data/
+/odoo-db-data/
+
+# Ignore backup files
+/backups/
+*.tar.gz
+
+# Ignore log files
+*.log
+
+# Ignore database files (if accidentally copied)
+*.sql
+*.sqlite
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore IDE configs
+.vscode/
+.idea/
+
+# Ignore environment files
+.env
+*.env
+
+# Ignore local Odoo folder (if included)
+odoo/
