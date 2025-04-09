@@ -2,7 +2,7 @@
 {
     'name': "grades_manager",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Studes grades4",
 
     'description': """
 Long description of module's purpose
@@ -30,5 +30,7 @@ Long description of module's purpose
     'demo': [
         'demo/demo.xml',
     ],
+    'installable': True,
+    'application': True,
 }
 
