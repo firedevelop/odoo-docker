@@ -3,7 +3,7 @@
     <menuitem id="grades_manager_menu" name="Grades Manager"/>
 
     <!-- Sub-menu for Course under Grades Manager -->
-    <menuitem id="grades_course_menu" parent="grades_manager_menu" name="Course"/>
+    <menuitem id="grades_course_menu" parent="grades_manager_menu" name="Course" action="grades_course_action"/>
 
     <!-- Sub-menu for Teacher under Grades Manager -->
     <menuitem id="teachers_menu" parent="grades_manager_menu" name="Teacher"/>
