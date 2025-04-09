@@ -1,2 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_grades_manager_grades_manager,grades_manager.grades_manager,model_grades_manager_grades_manager,base.group_user,1,1,1,1
+grades_course_access,grades.course.access,model_grades_course,base.group_user,1,1,1,1

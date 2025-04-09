@@ -4,6 +4,7 @@ class GradesCourse(models.Model):
     _name = 'grades.course'
     _description = 'Grades Course'
     # _order = 'name' # _order = 'email' # Will Sort order by ... when page is load.
+    # _rec_name = '' # this name used in some places like the path, info, etc.. is not necesary declarate by default will be the name
 
     name = fields.Char(string='Name') # by default the first variable will be Sort order by...
     student_qty = fields.Integer(string='Student quantity')

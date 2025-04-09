@@ -2,7 +2,7 @@
 {
     'name': "grades_manager",
 
-    'summary': "Studes grades4",
+    'summary': "Studes grades5",
 
     'description': """
 Long description of module's purpose
@@ -25,6 +25,8 @@ Long description of module's purpose
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'security/ir.model.access.csv',
+        'views/grades_manager_menus.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
